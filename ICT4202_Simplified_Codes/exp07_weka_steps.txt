@@ -1,0 +1,11 @@
+EXPERIMENT 7: Introduction to WEKA for AI/ML Experiments
+This experiment uses WEKA Explorer, so the manual does not provide Python code.
+
+1. Open WEKA -> Explorer -> Preprocess -> Open file.
+2. Load the sample iris.arff dataset.
+3. Confirm that it has 150 instances and that the final attribute is the class.
+4. Open Classify -> Choose -> trees -> J48.
+5. Select Cross-validation and set folds = 10, then click Start.
+6. Record accuracy, correctly/incorrectly classified instances, Kappa, per-class statistics and confusion matrix.
+7. Repeat with Choose -> lazy -> IBk. Compare both classifiers.
+8. Save or copy the results for the lab report.
